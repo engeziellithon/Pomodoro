@@ -1,4 +1,4 @@
-import styled from 'styled-components/native'
+import styled from "styled-components/native";
 
 export const ClockRingOne = styled.View`
   height: 290px;
@@ -8,7 +8,7 @@ export const ClockRingOne = styled.View`
   align-items: center;
   margin: 0 auto;
   border-radius: 150px;
-`
+`;
 
 export const ClockRingTwo = styled.View`
   height: 245px;
@@ -19,7 +19,7 @@ export const ClockRingTwo = styled.View`
   border-radius: 150px;
   border-width: 3px;
   border-color: hsla(202, 100%, 50%, 0.5);
-`
+`;
 
 export const ClockRingThree = styled.View`
   height: 220px;
@@ -31,15 +31,14 @@ export const ClockRingThree = styled.View`
   border-radius: 150px;
   border-width: 3px;
   border-color: hsla(202, 100%, 50%, 0.5);
-`
+`;
 export const ClockTime = styled.View`
-  letter-spacing: 5px;
+  letter-spacing: 50px;
   color: #fff;
   height: 180px;
   width: 180px;
-  border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'DS-Digital';
-`
+  font-family: "DS-Digital";
+`;
